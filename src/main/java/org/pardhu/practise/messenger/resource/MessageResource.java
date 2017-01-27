@@ -28,7 +28,7 @@ import io.swagger.annotations.ApiOperation;
 @Path("/messages")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-@Api(description="REST API For Messenger Application", produces="Produces JSON Object", consumes="Consumes JSON Object")
+@Api(description="REST API For Messenger Application")
 public class MessageResource {
 
 	MessageService messageService = new MessageService();
